@@ -14,6 +14,10 @@ a {
     background-color: #fff8f3;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .dark-1 {
     color: #181818;
 }
@@ -120,10 +124,9 @@ a {
 /* about styles */
 
 .about {
-    text-align: center;
     max-width: 1100px;
     max-height: 550px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 5px;
     margin: 100px auto;
     padding: 130px 150px 130px 150px;
@@ -149,4 +152,22 @@ a {
 
 .info-description .info-title {
     font-size: 20px;
+}
+
+/* What I Do */
+
+.what-i-do {
+    max-width: 1100px;
+    margin: 100px auto;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.06);
 }
