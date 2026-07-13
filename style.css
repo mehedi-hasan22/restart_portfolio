@@ -171,3 +171,17 @@ a {
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.06);
 }
+
+
+/* Resume Styles */
+
+.resume-container {
+    display: flex;
+    max-width: 1100px;
+    gap: 24px;
+    margin: 50px auto;
+}
+
+.resume-column {
+    margin: 10px 20px;
+}
